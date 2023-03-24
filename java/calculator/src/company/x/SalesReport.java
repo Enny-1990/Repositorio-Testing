@@ -10,6 +10,7 @@ public class SalesReport {
 
         System.out.println("Ingrese la cantidad de venta");
         cantVent = scanner.nextInt();
+        scanner.close();
 
         if (cantVent >= 5){
             System.out.println("Felicidades cumplio su venta semanal");
